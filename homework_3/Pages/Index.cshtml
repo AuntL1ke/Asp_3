@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <div class="container text-center">
+        @for (int i = 0; i < Model.Movies.Count; i += 3)
+        {
+            <div class="row row-cols-3">
+                @for (int j = 0; j < 3 && i + j < Model.Movies.Count; j++)
+                {
+                    <div class="col">
+                        <div class="card" style="width: 26rem;">
+                            <img src=@Model.Movies[i + j].Poster class="card-img-top" alt="@Model.Movies[i + j].Title">
+
+                            <div class="card-body">
+                                <h5 class="card-title">@Model.Movies[i + j].Title</h5>
+                                <p class="card-text">@Model.Movies[i + j].Style</p>
+                                <a asp-page="Movies/Info" asp-route-id="@((i + j) + 1)" class="btn btn-primary">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>

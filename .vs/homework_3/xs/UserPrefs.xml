@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{431F9EAD-003F-46B7-BD1A-6170241CE38B}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="homework_3/Models/Session.cs">
+    <Files>
+      <File FileName="homework_3/Models/Movie.cs" Line="12" Column="44" />
+      <File FileName="homework_3/Models/Session.cs" Line="8" Column="35" />
+      <File FileName="homework_3/Pages/Movies/Info.cshtml" Line="14" Column="1" />
+      <File FileName="homework_3/Pages/Movies/Info.cshtml.cs" Line="22" Column="28" />
+      <File FileName="homework_3/Services/MovieService.cs" Line="9" Column="1" />
+      <File FileName="homework_3/Pages/Shared/_Layout.cshtml" Line="27" Column="30" />
+      <File FileName="homework_3/Pages/Index.cshtml" Line="24" Column="27" />
+      <File FileName="homework_3/Pages/Index.cshtml.cs" Line="22" Column="30" />
+      <File FileName="homework_3/Pages/Privacy.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="homework_3" expanded="True">
+            <Node name="homework_3" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Session.cs" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Movies" expanded="True">
+                  <Node name="Info.cshtml" expanded="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="homework_3" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.homework__3 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
